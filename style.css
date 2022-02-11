@@ -1,8 +1,18 @@
 body {
-    background-color:#00ff21;
+    margin: auto;
 }
-.wrapper {
 
+.container {
+    background-color:#00ff21;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.wrapper {
+width: auto;
+height: 50px;
+margin-bottom: 0;
 background-image: linear-gradient(purple, cyan, purple);
-margin: 0px;
+margin-top: 0;
 }
