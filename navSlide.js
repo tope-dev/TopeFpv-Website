@@ -23,3 +23,15 @@ const navSlide = () => {
 }
 
 navSlide();
+
+const contactButton = () => {
+    const contactBox = document.querySelector('.contact-link-box');
+    
+
+    contactBox.addEventListener('click', () => {
+        
+        
+
+
+    });
+}
