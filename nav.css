@@ -17,7 +17,6 @@ nav {
 
 .logo {
   height: 70px;
-  
 }
 
 .logo img {
@@ -37,20 +36,20 @@ nav {
 }
 
 .nav-links-contact {
-    background-color: #ff7070;
-    padding: 8px 14px 8px 14px;
-    border-radius: 3px;
-    color: black;
-    font-weight: 700;
-    text-decoration: none;
-    font-size: 16px;
-    transition: 0.3s;
+  background-color: #ff7070;
+  padding: 8px 14px 8px 14px;
+  border-radius: 3px;
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.3s;
 }
 
 .nav-links-contact:hover {
-    background-color: white;
-    color: #ff7070;
-    transition: 0.3s;
+  background-color: white;
+  color: #ff7070;
+  transition: 0.3s;
 }
 
 .nav-links-a {
@@ -86,7 +85,7 @@ nav {
   .nav-links a {
     font-size: 14px;
   }
-  .nav-links-contact{
+  .nav-links-contact {
     font-size: 14px;
   }
 }
@@ -105,7 +104,7 @@ nav {
   .nav-links {
     position: absolute;
     right: 0px;
-    height: 92vh;
+    height: 60vh;
     top: 8vh;
     background-color: black;
     display: flex;
