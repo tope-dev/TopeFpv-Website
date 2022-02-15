@@ -70,10 +70,10 @@ nav {
 }
 
 .burger div {
-  background-color: rgb(238, 238, 238);
-  width: 25px;
-  height: 3px;
-  margin: 5px;
+  background-color: #ff7070;
+  width: 28px;
+  height: 4px;
+  margin: 6px;
   transition: all 0.3s ease;
 }
 
@@ -150,11 +150,11 @@ nav {
 }
 
 .toggle .line1 {
-  transform: rotate(-45deg) translate(-5px, 6px);
+  transform: rotate(-45deg) translate(-6px, 8px);
 }
 .toggle .line2 {
   opacity: 0;
 }
 .toggle .line3 {
-  transform: rotate(45deg) translate(-5px, -6px);
+  transform: rotate(45deg) translate(-6px, -8px);
 }
