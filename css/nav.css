@@ -15,7 +15,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 10vh;
+  min-height: 14vh;
   background-color: rgb(0, 0, 0); /* Opacity set to 0.8 by rgb(0, 0, 0, 0.8)*/
   font-family: "Poppins", sans-serif;
   padding-left: 45px;
@@ -24,7 +24,7 @@ nav {
 
 nav.sticky {
   background-color: rgba(0, 0, 0, 0.8);
-  min-height: 8vh;
+  min-height: 10vh;
 }
 
 .nav-links {
@@ -82,7 +82,7 @@ nav.sticky {
 }
 
 .logo {
-  height: 70px;
+  height: 60px;
   transition: 0.5s ease-in-out;
 }
 
@@ -91,7 +91,7 @@ nav.sticky {
 }
 
 .logo.sticky {
-  height: 50px;
+  height: 40px;
   transition: 1s ease-in-out;
 }
 
