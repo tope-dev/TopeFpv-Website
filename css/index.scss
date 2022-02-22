@@ -1,5 +1,11 @@
 @import "variables";
 
+@mixin flexCenter {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -16,7 +22,7 @@
 
 .container-home {
   background-color: rgb(0, 0, 0);
-  height: 90vh;
+  height: 80vh;
   display: flex;
   margin-top: 10vh;
   min-height: fit-content; //Still Testing if it works
