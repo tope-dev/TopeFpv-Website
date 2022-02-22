@@ -7,18 +7,52 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css\index.css">
+        <link rel="stylesheet" href="css\nav.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     </head>
+    
     <body>
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="img\logo\color_logo_noslogan.png" alt=""></a>
+                
+            </div>
+            <ul class="nav-links">
+                <li>
+                    <a class="nav-links-a" href="#home">HOME</a>
+                </li>
+                <li>
+                    <a class="nav-links-a" href="#projects">PROJECTS</a>
+                </li>
+                <li>
+                    <a class="nav-links-a" href="#services">SERVICES</a>
+                </li>
+                <li>
+                    <a class="nav-links-a" href="#team">TEAM</a>
+                </li>
+                <li>
+                    <a class="nav-links-a" href="shop.html">SHOP</a>
+                </li>
+                <li>
+                    <a class="nav-links-contact" href="#contact">CONTACT</a>
+                </li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+        
         <div class="container">
-            
-            <div class="wrapper" id="header"><h1></h1></div>
-            <div class="wrapper" id="my-work"><h1></h1></div>
-            <div class="wrapper" id="about"><h1></h1></div>
-            <div class="wrapper" id="footer"><h1></h1></div>
-            
-        </div>
+            <div class="home-container" id="home"></div>
+            <div class="projects-container" id="projects"></div>
+            <div class="services-container" id="services"></div>
+            <div class="team-container" id="team"></div>
+            <div class="contact-container" id="contact"></div>
+            <div class="footer-container" id="footer"></div>
 
-        <script src="javascript.js" async defer></script>
+        <script src="navSlide.js"></script>
     </body>
 </html>
