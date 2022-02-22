@@ -1,7 +1,7 @@
 const template = document.createElement("template");
 template.innerHTML = `
 
-<link rel="stylesheet" href="css/nav.css">
+<link rel="stylesheet" href="css/navdev.css">
 
 <nav>
 <div class="logo">

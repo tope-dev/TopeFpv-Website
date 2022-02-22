@@ -1,13 +1,60 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-  }
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
 
 .container {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    height: 2000px;
-    background-color: cadetblue;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: black;
 }
+
+.container-home {
+  background-color: black;
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10vh;
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+}
+
+.transition_home-projects {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(#ff7070));
+  background-image: linear-gradient(black, #ff7070);
+  height: 10vh;
+  margin-top: -1px;
+}
+
+.container-projects {
+  height: 80vh;
+  background-color: #ff7070;
+  margin-top: -1px;
+}
+
+.transition_projects-services {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ff7070), to(#484848));
+  background-image: linear-gradient(#ff7070, #484848);
+  height: 10vh;
+  margin-top: -1px;
+}
+
+.container-services {
+  height: 80vh;
+  background-color: #484848;
+  margin-top: -1px;
+}
+/*# sourceMappingURL=index.css.map */
