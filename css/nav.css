@@ -33,6 +33,7 @@ nav.sticky {
   justify-content: space-around;
   width: 50%;
   align-items: center;
+  padding-bottom: 0px;
 }
 
 .nav-links li {
@@ -42,7 +43,7 @@ nav.sticky {
 .nav-links-a {
   color: rgb(231, 231, 231);
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   transition: 0.3s;
 }
@@ -57,7 +58,7 @@ nav.sticky {
   padding: 8px 14px 8px 14px;
   border-radius: 3px;
   color: black;
-  font-weight: 700;
+  font-weight: 600;
   text-decoration: none;
   font-size: 16px;
   transition: 0.3s;
@@ -99,6 +100,7 @@ nav.sticky {
 @media screen and (max-width: 1024px) {
   .nav-links {
     width: 60%;
+    padding-bottom: 0px;
   }
   .nav-links a {
     font-size: 14px;
@@ -139,6 +141,7 @@ nav.sticky {
     transition: transform 0.5s ease-in-out;
     transition: 0.5s ease-in-out ;
     border-radius: 0px 0px 0px 25px;
+    padding-bottom: 12px;
   }
   .nav-links.sticky {
     top: 8vh;
