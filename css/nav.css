@@ -121,8 +121,9 @@ nav.sticky {
     transition: transform 0.5 ease-in-out;
   }
 
-  nav.sticky{
+  nav.sticky {
     transition: transform 0.5 ease-in-out ;
+    min-height:8vh;
   }
   .nav-links {
     position: absolute;
