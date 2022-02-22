@@ -10,22 +10,22 @@ template.innerHTML = `
 </div>
 <ul class="nav-links">
     <li>
-        <a class="nav-links-a" href="#home">HOME</a>
+        <a class="nav-links-a" href="/index.html#home">HOME</a>
     </li>
     <li>
-        <a class="nav-links-a" href="#projects">PROJECTS</a>
+        <a class="nav-links-a" href="/index.html#projects">PROJECTS</a>
     </li>
     <li>
-        <a class="nav-links-a" href="#services">SERVICES</a>
+        <a class="nav-links-a" href="/index.html#services">SERVICES</a>
     </li>
     <li>
-        <a class="nav-links-a" href="#team">TEAM</a>
+        <a class="nav-links-a" href="/index.html#team">TEAM</a>
     </li>
     <li>
         <a class="nav-links-a" href="shop.html">SHOP</a>
     </li>
     <li>
-        <a class="nav-links-contact" href="#contact">CONTACT</a>
+        <a class="nav-links-contact" href="/index.html#contact">CONTACT</a>
     </li>
 </ul>
 <div class="burger">
