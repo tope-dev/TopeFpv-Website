@@ -1,4 +1,4 @@
-@import "variables";
+@import "variables", "mixin";
 
 * {
   margin: 0px;
@@ -46,13 +46,13 @@ nav {
   font-size: 16px;
   transition: 0.3s;
   &:hover {
-    color: #ff7070;
+    color: $red;
     transition: 0.3s;
   }
 }
 
 .nav-links-contact {
-  background-color: #ff7070;
+  background-color: $red;
   padding: 8px 14px 8px 14px;
   border-radius: 3px;
   color: black;
@@ -62,7 +62,7 @@ nav {
   transition: 0.3s;
   &:hover {
     background-color: white;
-    color: #ff7070;
+    color: $red;
     transition: 0.3s;
   }
 }
@@ -70,7 +70,7 @@ nav {
 .burger {
   display: none;
   div {
-    background-color: #ff7070;
+    background-color: $red;
     width: 28px;
     height: 4px;
     margin: 6px;
