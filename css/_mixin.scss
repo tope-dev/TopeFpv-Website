@@ -7,11 +7,11 @@
   font-weight: 600;
   text-decoration: none;
   font-size: $fontSize;
-  transition: 0.3s;
+  transition: 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
   &:hover {
     background-color: white;
     color: $red;
-    transition: 0.3s;
+    transition: 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
   }
 }
 
@@ -24,11 +24,11 @@
   font-weight: 600;
   text-decoration: none;
   font-size: 12px;
-  transition: 0.3s;
+  transition: 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
   &:hover {
     background-color: white;
     color: $red;
-    transition: 0.3s;
+    transition: 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
   }
 }
 
@@ -41,11 +41,11 @@
   font-weight: 600;
   text-decoration: none;
   font-size: 30px;
-  transition: 0.3s;
+  transition: 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
   &:hover {
     background-color: white;
     color: $red;
-    transition: 0.3s;
+    transition: 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
   }
 }
 
